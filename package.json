@@ -1,5 +1,5 @@
 {
-  "name": "daff",
+  "name": "@tra.sg/daff",
   "version": "1.3.40",
   "description": "Diff and patch tables",
   "url": "https://github.com/paulfitz/daff",
@@ -29,7 +29,7 @@
     "fibers": "^3.0.0"
   },
   "scripts": {
-    "prepublish": "make js",
+    "prepublishOnly": "make js",
     "test": "make test"
   },
   "main": "lib/daff.js",
